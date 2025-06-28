@@ -3,7 +3,7 @@ export {Component, ComponentConstructor, Context, define, addGlobalStyle, getCom
 export {defineBinding, refBinding, Binding, BindingResult, show, hide} from './bindings'
 export {defineDirective, refDirective, Directive, RepeatDirective, ToggleDirective, CacheDirective, DirectiveResult, cache, toggle, repeat, liveRepeat, LiveRepeatDirective, liveAsyncRepeat, LiveAsyncRepeatDirective, LiveRepeatOptions, LiveAsyncRepeatDataOptions} from './directives'
 export {on, once, off} from './internals/dom-event'
-export {defineTransion, getCSSEasingValue, Transition, TransitionOptions, isPlayingTransition, clearTransition} from './internals/transition'
+export {defineTransion, getCSSEasingValue, Transition, TransitionOptions, isPlayingTransition, clearTransition, webAnimate, webAnimateFrom, webAnimateTo} from './internals/transition'
 export {UpdatableOptions} from './internals/updatable-options'
 export {ContextualTransitionOptions} from './internals/contextual-transition'
 export {observe, observeGetting, watch, watchOnce, watchUntil, watchImmediately, onRenderComplete, untilRenderComplete, enqueueUpdatableInOrder, QueueUpdateOrder, updateAllGlobalWatchers} from '@pucelle/flit-basis'

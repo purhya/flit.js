@@ -461,7 +461,7 @@ const DefaultNotNumericStyleProperties: Record<string, string> = {
  * Execute standard web animation on element.
  * After animation end, the state of element will go back to the start state.
  */
-function webAnimate(el: Element, startFrame: TransitionFrame, endFrame: TransitionFrame, duration: number, easing: TransitionEasing) {
+export function webAnimate(el: Element, startFrame: TransitionFrame, endFrame: TransitionFrame, duration: number, easing: TransitionEasing) {
 	if (!el.animate) {
 		return {
 			promise: Promise.resolve(false),
@@ -501,7 +501,7 @@ function webAnimate(el: Element, startFrame: TransitionFrame, endFrame: Transiti
  * Execute standard web animation on element with start frame specified.
  * The end frame will be set as zero or empty values.
  */
-function webAnimateFrom(el: Element, startFrame: TransitionFrame, duration: number, easing: TransitionEasing) {
+export function webAnimateFrom(el: Element, startFrame: TransitionFrame, duration: number, easing: TransitionEasing) {
 	let endFrame: TransitionFrame = {}
 	let style = getComputedStyle(el)
 
@@ -518,7 +518,7 @@ function webAnimateFrom(el: Element, startFrame: TransitionFrame, duration: numb
  * The end frame will be specified as values of current state.
  * After animation executed, will not apply end frame values to element.
  */
-function webAnimateTo(el: Element, endFrame: TransitionFrame, duration: number, easing: TransitionEasing) {
+export function webAnimateTo(el: Element, endFrame: TransitionFrame, duration: number, easing: TransitionEasing) {
 	let startFrame: TransitionFrame = {}
 	let style = getComputedStyle(el)
 
