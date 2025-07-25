@@ -1,11 +1,11 @@
-# Flit - Obsoleted
+# flit.js - Obsoleted
 
 
 ## About
 
-**Flit** is a light weight web library, in it you can define your custom component and render it uses syntax like `` html`<component-name />` ``
+**flit.js** is a light weight web library, in it you can define your custom component and render it uses syntax like `` html`<component-name />` ``
 
-**Flit** was inspired from [lit-html](https://lit-html.polymer-project.org/).
+**flit.js** was inspired by [lit-html](https://lit-html.polymer-project.org/).
 
 
 ## Features
