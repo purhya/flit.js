@@ -16,7 +16,7 @@
  - Supports partial rendering.
  - Supports scoped style by rendering CSS codes dynamically.
 
-For more details, preview [flit-ui](https://github.com/pucelle/flit-ui).
+For more details, preview [flit-ui](https://github.com/purhya/flit-ui).
 
 
 ## Documentation
