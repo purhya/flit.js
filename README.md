@@ -6,7 +6,7 @@
 
 **flit.js** is a light weight vide model library, in it you can define your custom component and render it uses syntax like `` html`<component-name />` ``
 
-**flit.js** was inspired from [lit-html](https://lit-html.polymer-project.org/).
+**flit.js** was inspired by [lit-html](https://lit-html.polymer-project.org/).
 
 
 
@@ -14,7 +14,7 @@
 
  - Written in typescript.
  - Using ES template literal to render component.
- - Using `Proxy` to track data changes and update components automatically.
+ - Using **Proxy APIs** to track properties changes and update components automatically.
  - Supports scoped style by rendering CSS codes dynamically.
 
 
