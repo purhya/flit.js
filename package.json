@@ -1,13 +1,13 @@
 {
-	"name": "@pucelle/flit",
+	"name": "@pucelle/flit.js",
 	"version": "1.3.1",
 	"description": "A light weight Web Component framework using ES template literal and Proxy.",
 	"author": "pucelle",
 	"license": "MIT",
-	"homepage": "https://github.com/pucelle/flit",
+	"homepage": "https://github.com/pucelle/flit.js",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/pucelle/flit.git"
+		"url": "https://github.com/pucelle/flit.js.git"
 	},
 	"main": "out/index.js",
 	"scripts": {
